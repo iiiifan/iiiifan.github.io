@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    <title>Welcome to Yifan's Personal Page</title>
+    <meta name="author" content="Yifan Zhang">
+    <link rel="shortcut icon" href="/img/favicon.png">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css">
+    <meta name="generator" content="Hexo 4.2.1">
+</head>
+<body>
+    <header id="page_header">
+        <div class="header_wrap">
+            <div id="blog_name">
+                <a class="blog_title" id="site-name" href="/">
+                    Welcome to Yifan's Personal Page
+                </a>
+            </div>
+            <button class="menus_icon" onclick="toggleMenu()">
+                <div class="navicon"></div>
+            </button>
+            <ul class="menus_items" id="menu">
+                <li class="menus_item">
+                    <a class="site-page" href="/">Home</a>
+                </li>
+                <li class="menus_item">
+                    <a class="site-page" href="/Publications">Publications</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main id="page_main">
+        <div class="side-card sticky fade-in">
+            <div class="card-wrap" itemscope itemtype="http://schema.org/Person">
+                <div class="author-avatar">
+                    <img class="avatar-img" src="/img/zyf.png" onerror="this.onerror=null;this.src='/img/zyf.jpg'" alt="avatar">
+                </div>
+                <div class="author-discrip">
+                    <h3>Yifan Zhang</h3>
+                    <p class="author-bio">
+                        Ph.D. Candidate | National University of Defense Technology | Cognitive Science Laboratory 
+                    </p>
+                </div>
+                <div class="author-links">
+                    <ul class="social-icons">
+                        <li>
+                            <a class="social-icon" href="https://github.com/iiiifan" target="_blank">
+                                <i class="fab fa-github" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="social-icon" href="mailto:zhangyifanedu@nudt.edu.cn">
+                                <i class="fas fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- <ul class="social-links">
+                        <li>
+                            <a class="e-social-link" href="https://scholar.google.com/citations?user=yifanzhang" target="_blank">
+                                <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                                <span>Google Scholar</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="e-social-link" href="https://orcid.org/0000-0000-0000-0000" target="_blank">
+                                <i class="fab fa-orcid" aria-hidden="true"></i>
+                                <span>ORCID</span>
+                            </a>
+                        </li>
+                    </ul> -->
+                </div>
+                <a class="cv-links" href="/attaches/yifan_zhang_cv.pdf" target="_blank">
+                    <i class="fas fa-file-pdf" aria-hidden="true"></i>
+                    <span>Download CV</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="page fade-in" itemscope itemtype="http://schema.org/CreativeWork">
+            <article>
+                <h3 id="About-Me">About Me</h3>
+                <p>I am a Ph.D. candidate at the National University of Defense Technology (NUDT), working in the Cognitive Science Laboratory under the supervision of  <a href="https://www.researchgate.net/profile/Dewen-Hu" target="_blank" rel="noopener">Prof. Dewen Hu</a> and <a href="https://www.researchgate.net/profile/Ling-Li-Zeng" target="_blank" rel="noopener">Prof. Ling-Li Zeng</a>. My research focuses on Brain Science & Cognitive Neuroscience and Brain-Computer Interface technologies.</p>
+                
+                <p>I completed my M.Phil. degree in Control Science and Engineering at NUDT supervised by Prof. Dewen Hu and received my Bachelor's degree in Information Security from Harbin Institute of Technology (HIT).</p>
+                
+                <h3 id="Research-Interests">Research Interests</h3>
+                <p>My research interests lie at the intersection of neuroscience and artificial intelligence, focusing on:</p>
+                <ul>
+                    <li><strong>EEG Signal Processing:</strong> Advanced deep learning methods for EEG analysis</li>
+                    <li><strong>Brain-Computer Interface:</strong> Non-invasive closed-loop BCI systems</li>
+                    <li><strong>Cognitive Neuroscience:</strong> Brain state monitoring and cognitive load prediction</li>
+                </ul>
+                
+
+                <h3 id="Research-Projects">Research Projects</h3>
+
+                <div class="project-item">
+                    <div class="project-header">
+                        <strong>Invasive/Non-invasive Bidirectional Closed-loop BCI Systems</strong>
+                        <span class="project-date">(Aug 2022 - Present)</span>
+                    </div>
+                    <div class="project-details">
+                        <p><em>Supported by Science and Technology Innovation (STI) 2030 - Major Projects</em></p>
+                        <ul>
+                            <li>Contributed to grant proposal writing and technical reporting</li>
+                            <li>Proposed generative method for enhancing EEG spatial resolution, improving movement-related signal decodability</li>
+                            <li>Designed wearable cognitive headband prototype and cognitive state monitoring software system</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <div class="project-header">
+                        <strong>Generative AI Methods for Cross-Site Multi-modal Brain Imaging and Diagnostic Applications</strong>
+                        <span class="project-date">(Jan 2025 - Present)</span>
+                    </div>
+                    <div class="project-details">
+                        <p><em>Supported by National Natural Science Foundation of China (NSFC) Key Project</em></p>
+                        <ul>
+                            <li>Designed self-supervised pretraining framework for EEG (100M parameters on 2000+ hrs unlabeled data)</li>
+                            <li>Developing EEG-graph-text cross-modal generative framework</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <div class="project-header">
+                        <strong>Key Technologies for Brain-Machine Hybrid Intelligence</strong>
+                        <span class="project-date">(Nov 2021 - Nov 2023)</span>
+                    </div>
+                    <div class="project-details">
+                        <p><em>Supported by National Defense Science and Technology Innovation Special Zone Project</em></p>
+                        <ul>
+                            <li>Integrated brain-controlled wheelchair system and conducted clinical tests at Xiangya Hospital</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <div class="project-header">
+                        <strong>Human-Robot Intelligence Fusion Technology</strong>
+                        <span class="project-date">(Jun 2019 - May 2023)</span>
+                    </div>
+                    <div class="project-details">
+                        <p><em>Supported by National Key Research and Development Program of China</em></p>
+                        <ul>
+                            <li>Proposed hybrid EEG-computer vision concealed object recognition (+10% accuracy vs vision-only)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h3 id="Internships">Industry Experience</h3>
+                <p>I have gained valuable industry experience through internships at leading technology companies:</p>
+                <div class="highlight-item">
+                    <strong>Huawei (Jul 2021 - Oct 2021)</strong><br>
+                    Algorithm Intern at Intelligent Automotive Solutions BU, researching event camera-based perception algorithms for autonomous driving.
+                </div>
+                <div class="highlight-item">
+                    <strong>Meituan (May 2021 - Jul 2021)</strong><br>
+                    Algorithm Intern at Drone Delivery Flight Control Group, building Flight Data Analysis System deployed in Shenzhen community.
+                </div>
+                <div class="highlight-item">
+                    <strong>Baidu (Jan 2019 - Apr 2019)</strong><br>
+                    Test Intern at Apollo Autonomous Driving Division, working on Apollo Development Kit and technical documentation.
+                </div>
+                
+                <!-- <h3 id="Honors-Awards">Honors & Awards</h3>
+                <div class="highlight-item">
+                    <strong>🏆 Gold Award</strong> - National Invention Exhibition & BRICS Skills Development Competition (Dec 2024)
+                </div>
+                <div class="highlight-item">
+                    <strong>🥉 National 3rd Prize</strong> - Huawei Cup China Graduate AI Innovation Competition, Team Lead (Sep 2024)
+                </div>
+                <div class="highlight-item">
+                    <strong>🥈 National 2nd Prize</strong> - Global AI Innovation Competition - UAV Challenge, Team Lead (Jun 2023)
+                </div>
+                <div class="highlight-item">
+                    <strong>🥇 National 1st Prize</strong> - Global AI Innovation Competition - Deep Learning Track (Jun 2023)
+                </div>
+                <div class="highlight-item">
+                    <strong>🥈 National 2nd Prize</strong> - Xindong Aviation Cup Future Aircraft Innovation Competition (Jun 2023)
+                </div>
+                <div class="highlight-item">
+                    <strong>🥈 National 2nd Prize</strong> - Shenhao Cup Robotics Innovation Design Competition (Sep 2023)
+                </div>
+                <div class="highlight-item">
+                    <strong>🥈 National 2nd Prize</strong> - Shenhao Cup Robotics Innovation Design Competition (Sep 2022)
+                </div>
+                <div class="highlight-item">
+                    <strong>🥈 National 2nd Prize</strong> - National Intelligent Vehicle Contest - Deep Learning Group (Jun 2020)
+                </div>
+                <div class="highlight-item">
+                    <strong>🥇 National 1st Prize</strong> - China Formula Student Driverless (Dec 2018)
+                </div> -->
+                <!-- <div class="highlight-item">
+                    <strong>🌟 Outstanding Student</strong> - Harbin Institute of Technology (Dec 2018)
+                </div> -->
+                
+            </article>
+        </div>
+    </main>
+
+    <footer id="page_footer">
+        <div class="footer_wrap">
+            <div class="copyright">&copy;2021 - 2025 by Yifan Zhang</div>
+            <div class="theme-info">
+                Powered by <a href="https://hexo.io" target="_blank" rel="nofollow noopener">Hexo</a> & 
+                <a href="https://github.com/PhosphorW/hexo-theme-academia" target="_blank" rel="nofollow noopener">Academia Theme</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            menu.classList.toggle('active');
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('fade-in');
+                    }
+                });
+            });
+            
+            document.querySelectorAll('.highlight-item').forEach(el => {
+                observer.observe(el);
+            });
+        });
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        window.addEventListener('scroll', function() {
+            const header = document.getElementById('page_header');
+            if (window.scrollY > 50) {
+                header.style.background = 'rgba(255, 255, 255, 0.98)';
+                header.style.boxShadow = '0 2px 25px rgba(0, 0, 0, 0.15)';
+            } else {
+                header.style.background = 'rgba(255, 255, 255, 0.95)';
+                header.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.1)';
+            }
+        });
+    </script>
+</body>
+</html>
